@@ -48,8 +48,7 @@ I am a final-year Informatics student with experience in building websites and a
 
 <div align="center">
 
-[![LinkedIn] (https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)(https://www.linkedin.com/in/elsy-maharani-putri-8260a9260/)
-
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/elsy-maharani-putri-8260a9260/)
 
 </div>
 
