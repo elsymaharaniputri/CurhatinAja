@@ -1,6 +1,6 @@
 <!-- Header Section -->
 <div align="center">
-  <h1>👋 Hi, I'm John Doe</h1>
+  <h1>👋 Hi, I'm Elsy Maharani Putri</h1>
   <h3>Frontend Developer | UI/UX Enthusiast | AI Engineer Enthusiast | Open Source Enthusiast</h3>
 </div>
 
