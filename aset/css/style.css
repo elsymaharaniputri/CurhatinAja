@@ -1,0 +1,235 @@
+/* PAWANG KODING */
+:root {
+    --primary:#39FD52;
+    --secondary:#e6ecf1;
+    --blackme:#31302E;
+    --greyme:#f6f6f6;
+    --greyme2:#dbcece;
+
+
+}
+*{
+    font-family: 'Poppins';
+}
+
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Poppins';
+}
+.bg-green{
+    background-color: var(--primary) ;
+}
+.text-green{
+    color: var(--primary) ;
+}
+.bg-green2{
+    background-color: var(--secondary) ;
+}
+.bg-blackme{
+    background-color: var(--blackme) ;
+}
+
+.btn-green{
+    background-color: var(--primary);
+    color: white;
+}
+.btn-green:hover{
+    border-color: var(--primary);
+    color: var(--primary);
+
+}
+.btn-outline-green{
+    border-color: var(--primary);
+    color: var(--primary);
+    
+}
+.btn-outline-green:hover{
+    color: white;
+    background-color: var(--primary);
+}
+.btn-outline-green2{
+    border-color: var(--secondary);
+}
+.btn-outline-blackme{
+    border-color: var(--blackme);
+}
+
+/* DB-AHLI */
+.img-tim{
+    width: 220px;
+    height: 300px;
+    object-fit: cover;
+    margin: auto;
+}
+.img-tim>img{
+    height: 100%;
+    width: 100%;
+
+}
+/* TAMBAHAN 1*/
+.img-timIcon{
+    width: 350px;
+    height: 400px;
+    object-fit: cover;
+    margin: auto;
+}
+.img-timIcon > img{
+    height: 100%;
+        width: 100%;
+}
+/* TAMBAHAN 2*/
+.navbar-nav .nav-item>a:hover {
+    color: var(--primary);
+}
+/* TAMBAHAN */
+.footer p>a:hover{
+color: var(--primary);
+}
+.footer p>a {
+color:#ffffff;
+}
+/* PAGINATION */
+.pagination a {
+    color: var(--blackme);
+    font-size: 18px;
+    font-weight: 700;
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--greyme2);
+    padding-left: 18.5px;
+    padding-right: 18.5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 0.3rem;
+}
+
+.pagination a.active,
+.pagination a:hover {
+    color: #fff;
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.pagination a+a {
+    margin-left: 10px;
+}
+
+
+/* LOGIN REGISTER */
+.login {
+    height: 100vh;
+}
+
+.header h1 {
+    color: #000;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.header p {
+    color: #737373;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.login-form label {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+.login-form input {
+    border-radius: 8px;
+    border: 1px solid #BCBCBC;
+    background: #FFF;
+}
+
+.login-form a {
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 20px 0;
+    display: block;
+}
+
+.login-form .signin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    background: #3ad618;
+    color: #FFF;
+    border: none;
+    margin: 20px auto;
+}
+
+.login-form span {
+    color: #737373;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.login-form span a {
+    font-weight: 600;
+}
+
+.login-right {
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.15);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.register-form .fz-13 {
+    font-size: 13px;
+}
+
+.register-form .btn-register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    background: #3ad618;
+    color: #FFF;
+    border: none;
+    margin: 20px auto;
+}
+
+.form-ahli {
+    background-color: #fff;
+    margin-top: 5vh;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.form-ahli .btn-register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    background: #3ad618;
+    color: #FFF;
+    border: none;
+    margin: 1px auto;
+}
